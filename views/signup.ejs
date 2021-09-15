@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+    <%- include("base") %>
+    <body>
+        <div class="bi3">
+            <div class="align">
+                <br><br>
+                <h2 class="font"><b>Please Sign up here</b></h2>
+                <form  action="/signup" method="POST">
+                    <label class="font"><b>User Name:</b></label>
+                    <input type="text" name="username" placeholder="username"/>
+                    <br><br>
+                    <label class="font"><b>Contact No:</b></label>
+                    <input type="number" name="number" placeholder="phone no"/>
+                    <br><br>
+                    <label class="font"><b>Email:</b></label>
+                    <input type = "email" name="email" placeholder="Enter your Email"/>
+                    <br><br>
+                    <label class="font"> <b>Password:</b> </label>
+                    <input type="password" name="password" placeholder="Enter your Password"/>
+                    <br><br>
+                    <button type ="submit" class="btn btn-success"> Sign up</button>
+                </form>
+            </div> 
+        </div>
+        
+    </body>
+</html>
+

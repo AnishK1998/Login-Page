@@ -1,0 +1,81 @@
+/* Border form */
+/* form {
+    border: 3px solid 
+} */
+
+body, html{
+    height: 100%;
+    max-width: 100%;
+}
+
+.image{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar{
+    width: 35%;
+    border-radius: 45;
+}
+
+ .align{
+    text-align: center;
+    height: 100%;
+} 
+
+.container{
+    padding: 10px;
+}
+
+.bg{
+    background-image: url("https://images.unsplash.com/photo-1593642634443-44adaa06623a?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=625&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.bi{
+    background-image: url("https://resi.ze-robot.com/dl/4k/4k-desktop-wallpaper.-1280%C3%97720.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    max-width: 100%;
+}
+
+.bi2{
+    background-image: url("https://resi.ze-robot.com/dl/4k/4k-desktop-wallpaper.-1280%C3%97720.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    max-width: 100%;
+}
+
+.bi3{
+    background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    max-width: 100%;
+}
+
+
+.color{
+    color:crimson;
+}
+
+.font{
+    color: cornflowerblue;   
+}
+
+.centertext{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+}

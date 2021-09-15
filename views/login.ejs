@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<%- include("base") %>
+    <body>
+        <div class='bg'>
+            <div class='align'> 
+            <form style="color:brown" method="POST" action="/login" >
+            <br>
+                    <div class="image">
+                        <img src="https://www.incomeactivator.com/custom/292/images/login-icon.jpg">
+                    </div>
+
+                    <div class="container">
+                        <label class="font"> <b>Username: </b></label>
+                        <input type = "username" name="username" placeholder="Enter Your username"/>
+                    </div> 
+
+                    <div class="container">
+                    <label class="font"> <b>Email: </b></label>
+                    <input type = "email" name="email" placeholder="Enter Your Email ID"/>
+                    </div>   
+
+                    <div class="container">
+                    <label class="font"> <b>Password:</b>  </label>
+                    <input type="password" name="password" placeholder="Enter Your Password"/>
+                    </div>
+            
+                    <div class="container">
+                        <label class="font">
+                            <input type="checkbox" checked="checked" name="rember"> Rember Me
+                        </label>
+                    </div>
+                
+                <button class="btn-secondary btn" type ="submit"> log in</button>
+                <button class="btn-primary btn" type="new user"> new user</button>
+            </form>
+            </div>
+        </div>
+    </body>
+</html>
